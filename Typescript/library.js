@@ -20,11 +20,9 @@ var Library = /** @class */ (function () {
         this.manager = manager;
     };
     Library.prototype.toString = function () {
-        var array = [];
         var resultado = "";
         for (var i = 0; i < this.books.length; i++) {
-            array.push("\n\nBook " + (i + 1) + this.books[i].toString());
-            resultado += array[i];
+            resultado += "Books " + (i + 1) + this.books[i].toString();
         }
         return resultado;
     };

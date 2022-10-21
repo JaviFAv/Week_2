@@ -28,13 +28,10 @@ export class Library {
     }
 
     public toString(): string {
-        let array: string[] = [];
+
         let resultado: string = "";
         for (let i = 0; i < this.books.length; i++) {
-
-            array.push("\n\nBook " + (i + 1) + this.books[i].toString());
-
-            resultado += array[i];
+            resultado += "Books " + (i + 1) + this.books[i].toString();
         }
         return resultado;
     }
