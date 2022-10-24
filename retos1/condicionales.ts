@@ -97,3 +97,4 @@ function isEven(number: number) {
 }
 
 isEven(8);
+
