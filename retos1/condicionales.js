@@ -1,3 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.isEven = void 0;
 function zodiac(day, month) {
     if ((day >= 21 && month == 1) || (day <= 19 && month == 2)) {
         console.log("Aquarius");
@@ -38,7 +41,7 @@ function zodiac(day, month) {
     else
         console.log("Introduce un valor de dia y mes valido");
 }
-zodiac(13, 3);
+//zodiac(13, 3);
 function continent(country) {
     if (country == "Nigeria") {
         console.log("Africa");
@@ -120,7 +123,7 @@ function continent(country) {
             console.log("Introduce un pais valido")
         ];
 }
-continent("España");
+//continent("España");
 function isEven(number) {
     if (number % 2 == 0) {
         console.log("El numero es par");
@@ -129,4 +132,5 @@ function isEven(number) {
         console.log("El numero es impar");
     }
 }
-isEven(8);
+exports.isEven = isEven;
+//isEven(8);

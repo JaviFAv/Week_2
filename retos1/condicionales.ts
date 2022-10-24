@@ -28,7 +28,7 @@ function zodiac(day, month) {
 
 }
 
-zodiac(13, 3);
+//zodiac(13, 3);
 
 
 function continent(country: string) {
@@ -87,14 +87,14 @@ function continent(country: string) {
     ]
 }
 
-continent("España");
+//continent("España");
 
 
-function isEven(number: number) {
+export function isEven(number: number) {
     if (number % 2 == 0) {
         console.log("El numero es par")
     } else { console.log("El numero es impar") }
 }
 
-isEven(8);
+//isEven(8);
 
