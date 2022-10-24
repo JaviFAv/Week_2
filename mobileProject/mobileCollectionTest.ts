@@ -16,7 +16,11 @@ console.log(mobileCollection.getMobiles());
 mobileCollection.setMobiles(collection2);
 console.log(mobileCollection.getMobiles());
 
-console.log(mobileCollection.getTotalPrice());
-mobileCollection.setTotalPrice(100);
-console.log(mobileCollection.getTotalPrice());
+
+
+//console.log(mobileCollection.getTotalPrice());
+// mobileCollection.setTotalPrice(100);
+// console.log(mobileCollection.getTotalPrice());
+
+console.log(mobileCollection.totalPrice);
 
