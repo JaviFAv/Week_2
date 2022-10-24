@@ -52,4 +52,13 @@ export class Mobile {
     setPrice(price: number) {
         this.price = price;
     }
+
+    print(mobile: Mobile) {
+        console.log("\n\"The characteristics of the mobile " + mobile.name + " are:\"" +
+            "\n\tName: \t\t" + mobile.name +
+            "\n\tTrademark: \t" + mobile.trademark +
+            "\n\tModel: \t\t" + mobile.model +
+            "\n\tColor: \t\t" + mobile.color +
+            "\n\tPrice: \t\t" + mobile.price)
+    }
 }

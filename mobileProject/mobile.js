@@ -39,6 +39,14 @@ var Mobile = /** @class */ (function () {
     Mobile.prototype.setPrice = function (price) {
         this.price = price;
     };
+    Mobile.prototype.print = function (mobile) {
+        console.log("\n\"The characteristics of the mobile " + mobile.name + " are:\"" +
+            "\n\tName: \t\t" + mobile.name +
+            "\n\tTrademark: \t" + mobile.trademark +
+            "\n\tModel: \t\t" + mobile.model +
+            "\n\tColor: \t\t" + mobile.color +
+            "\n\tPrice: \t\t" + mobile.price);
+    };
     return Mobile;
 }());
 exports.Mobile = Mobile;
