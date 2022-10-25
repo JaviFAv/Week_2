@@ -25,6 +25,11 @@ var MobileCollection = /** @class */ (function () {
         }
         return totalPrice;
     };
+    MobileCollection.prototype.printCollection = function (mobiles) {
+        for (var i = 0; i < mobiles.mobiles.length; i++) {
+            mobiles.mobiles[i].print(mobiles.mobiles[i]);
+        }
+    };
     return MobileCollection;
 }());
 exports.MobileCollection = MobileCollection;

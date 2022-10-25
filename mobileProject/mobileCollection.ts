@@ -33,4 +33,10 @@ export class MobileCollection {
         return totalPrice;
     }
 
+    printCollection(mobiles: MobileCollection) {
+        for (let i = 0; i < mobiles.mobiles.length; i++) {
+            mobiles.mobiles[i].print(mobiles.mobiles[i]);
+        }
+    }
+
 }

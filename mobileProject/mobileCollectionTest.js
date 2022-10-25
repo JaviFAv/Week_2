@@ -16,3 +16,4 @@ console.log(mobileCollection.getMobiles());
 // mobileCollection.setTotalPrice(100);
 // console.log(mobileCollection.getTotalPrice());
 console.log(mobileCollection.totalPrice);
+mobileCollection.printCollection(mobileCollection);

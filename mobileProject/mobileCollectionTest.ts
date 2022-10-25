@@ -24,3 +24,4 @@ console.log(mobileCollection.getMobiles());
 
 console.log(mobileCollection.totalPrice);
 
+mobileCollection.printCollection(mobileCollection);
