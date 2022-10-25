@@ -21,6 +21,12 @@ var Point = /** @class */ (function () {
     Point.prototype.toString = function () {
         return "(" + this.x + "," + this.y + ")";
     };
+    Point.prototype.distanceToOrigin = function () {
+        return Math.sqrt((this.x * this.x) + (this.y * this.y));
+    };
+    Point.prototype.calculateDistance = function (anotherPoint) {
+        return Math.sqrt(((anotherPoint.x - this.x) * (anotherPoint.x - this.x)) + ((anotherPoint.y - this.y) * (anotherPoint.y - this.y)));
+    };
     return Point;
 }());
 exports.Point = Point;
